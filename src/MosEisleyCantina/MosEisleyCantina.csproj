@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <UserSecretsId>7b970686-f09d-43ec-bda3-9f162f98cf6e</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.10" />
+    <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
+</ItemGroup>
+
+  <ItemGroup>
+    <None Remove="MosEisleyCantina.DataAccess\" />
+    <None Remove="MosEisleyCantina.Domain\" />
+    <None Remove="MosEisleyCantina.Common\" />
+    <None Remove="MosEisleyCantina.Common\Models\" />
+    <None Remove="Solution Items\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MosEisleyCantina.DataAccess\" />
+    <Folder Include="MosEisleyCantina.Domain\" />
+    <Folder Include="MosEisleyCantina.Common\" />
+    <Folder Include="MosEisleyCantina.Common\Models\" />
+    <Folder Include="Solution Items\" />
+  </ItemGroup>
+</Project>

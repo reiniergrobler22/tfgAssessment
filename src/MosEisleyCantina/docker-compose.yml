@@ -1,0 +1,9 @@
+﻿services:
+  mos_eisley_cantina:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./data:/app/data  # Persistent storage for SQLite database

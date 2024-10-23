@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{E1510D1A-995B-482E-8E5E-C985BE85736D}|https">
+  <MonoDevelop.Ide.ItemProperties.MosEisleyCantina PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../MosEisleyCantina/MosEisleyCantina/MosEisleyCantina.Api/CantinaController.cs" line="18" column="43" endLine="18" endColumn="51" offsetX="-1" offsetY="-1" expression="services.ServiceDescriptors[214]" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MosEisleyCantina/Dockerfile">
+    <Files>
+      <File FileName="MosEisleyCantina/docker-compose.yml" Line="9" Column="21" />
+      <File FileName="MosEisleyCantina/Dockerfile" Line="23" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MosEisleyCantina" expanded="True">
+            <Node name="MosEisleyCantina" expanded="True">
+              <Node name="Dockerfile" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
