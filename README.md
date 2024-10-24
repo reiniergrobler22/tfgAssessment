@@ -23,7 +23,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/mos-eisley-cantina.git
+git clone [https://github.com/your-username/mos-eisley-cantina.git](https://github.com/reiniergrobler22/tfgAssessment.git)
 cd mos-eisley-cantina
 Run Locally Without Docker:
 
